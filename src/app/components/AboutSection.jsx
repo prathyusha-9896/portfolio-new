@@ -11,10 +11,13 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Express</li>
+        <li>Next.js</li>
+        <li>React</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Firebase</li>
+        <li>Google Analytics</li>
       </ul>
     ),
   },
@@ -23,8 +26,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Civil engineer - NBKR institute of science and technology</li>
+        <li>Full Stack java developer course - Generation India Program</li>
       </ul>
     ),
   },
@@ -34,7 +37,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Full Stack java developer course - Generation India Program</li>
       </ul>
     ),
   },

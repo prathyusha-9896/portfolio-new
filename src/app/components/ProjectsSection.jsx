@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Web Application Portal",
-    description: "Project 1 description",
+    description: "IOS application web portal",
     image: '/images/projects/1.svg',
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Simple AI Powered Company website",
-    description: "Project 2 description",
+    title: "Simple AI Powered",
+    description: "Company's website",
     image: "/images/projects/2.svg",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Neet-AI-Tutor ",
+    description: "Web Application",
     image: "/images/projects/3.svg",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "React Portfolio",
-    description: "Project 4 description",
+    description: "Personal Portfolio",
     image: "/images/projects/4.svg",
     tag: ["All", "Mobile"],
     gitUrl: "/",
