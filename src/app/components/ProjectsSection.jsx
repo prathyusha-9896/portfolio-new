@@ -12,7 +12,7 @@ const projectsData = [
     image: '/images/projects/1.svg',
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://stories.thesimpleai.com/",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Company's website",
     image: "/images/projects/2.svg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/prathyusha-9896/simple",
+    previewUrl: "https://thesimpleai.com/",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.svg",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://neetaitutor.thesimpleai.com/",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const projectsData = [
     description: "Personal Portfolio",
     image: "/images/projects/4.svg",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/prathyusha-9896/portfolio-new",
     previewUrl: "/",
   },
   {

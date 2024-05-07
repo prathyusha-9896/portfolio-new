@@ -16,43 +16,36 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    const endpoint = 'https://formspree.io/f/mwkgyjjp'; // Updated Formspree endpoint
 
-    // Form the request for sending data to the server.
+    // Form the request for sending data to Formspree.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
     const response = await fetch(endpoint, options);
     const resData = await response.json();
 
-    if (response.status === 200) {
+    if (response.ok) {
       console.log("Message sent.");
       setEmailSubmitted(true);
     }
   };
 
   return (
-    <section
-      id="contact"
-      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
-    >
+    <section id="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative ">
       <div className=" rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-[#c1272d] my-2">
-          Let&apos;s Connect
+          Let's Connect
         </h5>
         <p className="text-black mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
+          I'm currently looking for new opportunities, my inbox is always
+          open. Whether you have a question or just want to say hi, I'll
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
@@ -70,7 +63,7 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form action="https://formspree.io/f/mwkgyjjp" className="flex flex-col" onSubmit={handleSubmit}>
             <div className="mb-6">
               <label
                 htmlFor="email"

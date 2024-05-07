@@ -10,9 +10,6 @@ import prathyusharesume from '../assets/prathyusharesume.pdf'
 const HeroSection = () => {
   return (
     <section className="lg:py-16 relative ">
-      <div className="absolute  left-[59%] top-0 rotate-45 w-56 h-56 ">
-        <Image className="lg:block hidden" src={leaf} alt="" />
-      </div>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -69,7 +66,7 @@ const HeroSection = () => {
             <Image
               src={file}
               alt="hero image"
-              className="rounded-full"
+              className="rounded-full "
             />
           </div>
         </motion.div>
